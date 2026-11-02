@@ -1,0 +1,20 @@
+CONTEÚDO DA BIBLIOTECA (o que o instalador baixa)
+Gerado em 30/10/2026 17:35
+
+1_Enciclopedia                                    184 arquivos     608.7 GB
+2_Mapas                                            26 arquivos       4.3 GB
+4_IA                                                3 arquivos       8.7 GB
+5_Acervo/Agricultura                            45086 arquivos     161.0 GB
+5_Acervo/Agua                                       2 arquivos       0.0 GB
+5_Acervo/Desastres                                  1 arquivos       0.0 GB
+5_Acervo/Eletrica                                   2 arquivos       0.0 GB
+5_Acervo/Exercito_Brasileiro                      401 arquivos       3.8 GB
+5_Acervo/Livros_SciELO                           1360 arquivos      14.3 GB
+5_Acervo/Saude                                   7434 arquivos      19.2 GB
+5_Acervo/Sobrevivencia                             22 arquivos       0.2 GB
+5_Acervo/Solda                                      2 arquivos       0.0 GB
+6_Instaladores                                      8 arquivos       0.5 GB
+Programas                                           1 arquivos       0.3 GB
+
+TOTAL: 54532 arquivos, 821.0 GB
++ gerados na instalação: mapa do Brasil para o PC (~6 GB) e textos religiosos (~13 MB)

@@ -1,0 +1,65 @@
+﻿BIBLIOTECA OFFLINE - COMO ATUALIZAR E COMO CONTINUAR MELHORANDO
+(estado em 26/10/2026)
+
+O QUE TEM NO SSD
+  ABRIR_BIBLIOTECA.bat   abre o app no navegador (tudo offline)
+  1_Enciclopedia         184 enciclopédias .zim (Wikipédia PT/EN, medicina, livros-texto,
+                         Stack Exchange técnicos, Gutenberg, Survivor Library...)
+  2_Mapas                brasil.pmtiles (menu "Mapa" do app), brasil.map (GPXSee, opcional),
+                         OrganicMaps_<versão> (mapas do celular; ver COMO_USAR_NO_CELULAR.txt)
+  4_IA                   modelos de IA local (Qwen3 8B e 1.7B)
+  5_Acervo               ~54 mil PDFs/EPUBs por tema (Embrapa, Exército, Ministério da Saúde,
+                         SciELO, Hesperian, manuais de sobrevivência...)
+  6_Instaladores         Kiwix, Firefox, GPXSee, Organic Maps (APK)
+  App                    o aplicativo (Python embutido, sem instalar nada)
+  _Baixador              os programas que baixaram tudo (e que atualizam)
+
+ATUALIZAR (precisa de internet)
+  1. Abra a biblioteca e vá em  Situação > Atualizar pela internet.
+  2. "Verificar o que há de novo": mostra quais enciclopédias têm versão nova e se cabem.
+  3. "Atualizar agora": baixa as versões novas das enciclopédias (a antiga é apagada depois que
+     a nova termina) e os livros/manuais novos da Embrapa, Exército, Ministério da Saúde,
+     SciELO e Hesperian. No fim, tudo já entra na busca sozinho.
+  - Pode usar a biblioteca enquanto atualiza. Se fechar o app ou cancelar, da próxima vez
+    continua de onde parou.
+  - Nunca enche o SSD: sempre sobram pelo menos 8 GB livres. O que não couber aparece como
+    "falta espaço".
+  - Sem o app aberto, dá para rodar  _Baixador\atualizar.py  com o Python de Programas\Python.
+
+IA (PERGUNTE E TRADUZIR)
+  Padrão: modelo 4B (rápido e bom), motor llama.cpp, cópia da IA guardada neste computador
+  (carrega em segundos) e IA já ligada ao abrir. Perguntas: ~45 s; tradução: ~10 s.
+  Em Situação > Configurações dá para trocar para o 1.7B (mais rápido, escreve pior) ou o 8B
+  (escreve melhor, leva minutos), e desligar a cópia no computador.
+
+LER TEXTO DE FOTOS E PDFs ESCANEADOS (OCR)
+  Traduzir > "Ler texto de uma foto ou imagem"; ou "ler com OCR" num PDF escaneado. Usa o leitor
+  que já vem no Windows (sem internet). Os escaneados também vão sendo lidos sozinhos e entram na busca.
+  Se a leitura não ficar boa, "Ler de novo com o Tesseract" (segundo leitor, roda no navegador e
+  funciona mesmo sem o leitor do Windows, inclusive no celular).
+
+AJUDA DENTRO DO APP
+  Menu Ajuda: guia de uso e um assistente que tira dúvidas sobre o app. O texto do guia fica em
+  App\static\ajuda\guia.json (dá para melhorar com o tempo).
+
+ADICIONAR SEUS PRÓPRIOS ARQUIVOS
+  Copie PDF, EPUB ou TXT para 5_Acervo\<Tema>\ e clique em Situação > Atualizar biblioteca.
+
+O QUE FICOU DE FORA (ideias para depois)
+  - Gutenberg "história mundial" e "artes" (falta espaço; ~140 GB).
+  - PDFs escaneados: o app já lê sozinho em segundo plano (OCR do Windows). Ver Situação.
+  - Buscas em português ainda não acham bem livros só em inglês (use "Pergunte" ou pesquise em
+    inglês).
+  - Mapa do PC mais novo: apague 2_Mapas\brasil.pmtiles.ok e rode _Baixador\BAIXAR_MAPA_PC.bat.
+
+KIT DE REINSTALAÇÃO (se perder o SSD)
+  Kit_Biblioteca_Offline_<data>.zip (~28 MB, na raiz do SSD): o app inteiro + a lista exata de todos os
+  arquivos com o endereço de origem. GUARDE UMA CÓPIA NA NUVEM. Para refazer a biblioteca: descompacte o kit
+  na raiz de um HD/SSD vazio de 1 TB e dê dois cliques em INSTALAR_BIBLIOTECA.bat (instruções no
+  LEIA-ME_PRIMEIRO.txt dentro do kit). Depois de mudar ou acrescentar coisas, gere um kit novo com
+  _Baixador\GERAR_KIT.bat (uns 20 minutos).
+
+PARA CONTINUAR COM O CLAUDE
+  Abra uma conversa no Claude Code com a pasta D:\ e diga o que quer melhorar. A especificação
+  original está em ESPECIFICACAO_APP.md; os detalhes técnicos em App\LEIA-ME.txt e
+  _Baixador\LEIA-ME.txt; o histórico dos downloads em _Baixador\registro.txt.

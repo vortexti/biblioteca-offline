@@ -1,0 +1,55 @@
+﻿BIBLIOTECA OFFLINE - KIT DE INSTALAÇÃO
+=======================================
+
+Criado por Breno Paiva - Instagram: @breno.paiva40 (instagram.com/breno.paiva40)
+Feito para ajudar as pessoas em tempos difíceis. Gratuito: não estou cobrando nada,
+só peço que me sigam no Instagram. Pode repassar à vontade, mas não venda.
+
+O que é: este kit recria, num HD ou SSD, a "Biblioteca Offline" completa: um app que funciona
+SEM INTERNET com manuais práticos (saúde, sobrevivência, agricultura, Exército...), enciclopédias
+(Wikipédia, medicina, consertos, livros-texto...), mapas do Brasil, uma IA que responde perguntas e
+traduz, leitura de texto em fotos, Bíblia/Torá/Alcorão e muito mais.
+
+O kit é pequeno porque não traz o conteúdo: ele traz o aplicativo pronto e a LISTA EXATA de cada
+arquivo da biblioteca original, com o endereço de onde baixar. O instalador baixa tudo sozinho.
+
+DO QUE PRECISA
+  - Computador com Windows 10 ou 11 (64 bits), internet, e um HD/SSD vazio de 1 TB
+    (com menos espaço ele instala primeiro o mais importante e pula o resto).
+  - Tempo: de horas a alguns dias, conforme a internet (são ~900 GB). Pode parar e continuar.
+
+COMO INSTALAR (só seguir)
+  1. Ligue o HD/SSD vazio no computador.
+  2. Descompacte este kit INTEIRO na raiz dele (exemplo: E:\). Devem aparecer as pastas App,
+     _Baixador e Programas, e os arquivos INSTALAR_BIBLIOTECA.bat e ABRIR_BIBLIOTECA.bat.
+  3. Dê dois cliques em INSTALAR_BIBLIOTECA.bat e deixe a janela aberta.
+     Ela mostra o andamento a cada 30 segundos. Se fechar, faltar luz ou cair a internet,
+     é só dar dois cliques de novo: ele continua de onde parou (nada é baixado duas vezes).
+  4. Quando aparecer "PRONTO", dê dois cliques em ABRIR_BIBLIOTECA.bat.
+     Na primeira vez o app monta o índice de busca (algumas horas); dá para ir usando enquanto isso.
+
+  Para ver o que ainda falta sem baixar nada: INSTALAR_BIBLIOTECA.bat --verificar
+  (abra um Prompt de Comando na pasta e digite isso).
+
+ORDEM DO QUE É BAIXADO (o mais importante primeiro)
+  1. Programas e a IA            4. Agricultura (Embrapa), Exército, livros acadêmicos
+  2. Saúde e sobrevivência        5. Demais enciclopédias (Wikipédia em inglês, Stack Exchange...)
+  3. Wikipédia em português,      6. Gutenberg (literatura) e IAs extras
+     enciclopédias essenciais,
+     mapas e instaladores
+  No fim ele ainda gera o mapa do Brasil para o PC e os textos religiosos.
+  O conteúdo detalhado está em CONTEUDO.txt.
+
+SE ALGO FALHAR
+  - Arquivos que saíram do ar: rode a instalação de novo mais tarde. Enciclopédias são trocadas
+    sozinhas pela versão mais nova. Os baixadores em _Baixador (BAIXAR_EMBRAPA.bat, BAIXAR_PT.bat,
+    BAIXAR_EXERCITO.bat...) buscam pelo catálogo atual de cada site.
+  - Registro detalhado: _Baixador\instalador\instalacao_registro.txt
+  - Depois de instalada, a biblioteca se atualiza pelo próprio app: Situação > Atualizar pela internet.
+
+DEPOIS DE INSTALADA
+  Leia COMO_ATUALIZAR_E_MELHORAR.txt e use o menu Ajuda dentro do app.
+
+Licenças: os textos e programas baixados pertencem aos seus autores e são usados conforme as licenças
+de cada fonte (domínio público, Creative Commons, uso não comercial...). Kit para uso pessoal e para
+compartilhar sem fins comerciais.
