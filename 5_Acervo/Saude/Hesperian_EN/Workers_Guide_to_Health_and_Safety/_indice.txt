@@ -1,0 +1,40 @@
+en_wgthas_2015_01.pdf	Working for a living and living well — Workers Guide to Health and Safety (cap. 1)
+en_wgthas_2015_02.pdf	Learning and teaching about health at work — Workers Guide to Health and Safety (cap. 2)
+en_wgthas_2015_03.pdf	Organizing to improve worker health — Workers Guide to Health and Safety (cap. 3)
+en_wgthas_2015_04.pdf	Electronics factories — Workers Guide to Health and Safety (cap. 4)
+en_wgthas_2015_05.pdf	Garment factories — Workers Guide to Health and Safety (cap. 5)
+en_wgthas_2015_06.pdf	Shoe factories — Workers Guide to Health and Safety (cap. 6)
+en_wgthas_2015_07.pdf	Ergonomics — Workers Guide to Health and Safety (cap. 7)
+en_wgthas_2015_08.pdf	Chemical dangers — Workers Guide to Health and Safety (cap. 8)
+en_wgthas_2015_09.pdf	Machine injuries — Workers Guide to Health and Safety (cap. 9)
+en_wgthas_2015_10.pdf	Electricity — Workers Guide to Health and Safety (cap. 10)
+en_wgthas_2015_11.pdf	Fire — Workers Guide to Health and Safety (cap. 11)
+en_wgthas_2015_12.pdf	Dust — Workers Guide to Health and Safety (cap. 12)
+en_wgthas_2015_13.pdf	Noise — Workers Guide to Health and Safety (cap. 13)
+en_wgthas_2015_14.pdf	Light — Workers Guide to Health and Safety (cap. 14)
+en_wgthas_2015_15.pdf	Heat and cold — Workers Guide to Health and Safety (cap. 15)
+en_wgthas_2015_16.pdf	Falling workers, falling objects, and vehicle injuries — Workers Guide to Health and Safety (cap. 16)
+en_wgthas_2015_17.pdf	Ventilation — Workers Guide to Health and Safety (cap. 17)
+en_wgthas_2015_18.pdf	Personal protective equipment (PPE) — Workers Guide to Health and Safety (cap. 18)
+en_wgthas_2015_19.pdf	Working too much, too fast, for too little — Workers Guide to Health and Safety (cap. 19)
+en_wgthas_2015_20.pdf	Doing factory work at home — Workers Guide to Health and Safety (cap. 20)
+en_wgthas_2015_21.pdf	Discrimination — Workers Guide to Health and Safety (cap. 21)
+en_wgthas_2015_22.pdf	Violence — Workers Guide to Health and Safety (cap. 22)
+en_wgthas_2015_23.pdf	Workers who migrate — Workers Guide to Health and Safety (cap. 23)
+en_wgthas_2015_24.pdf	Children who work — Workers Guide to Health and Safety (cap. 24)
+en_wgthas_2015_25.pdf	Access to health care — Workers Guide to Health and Safety (cap. 25)
+en_wgthas_2015_26.pdf	Reproductive and sexual health — Workers Guide to Health and Safety (cap. 26)
+en_wgthas_2015_27.pdf	Stress and mental health — Workers Guide to Health and Safety (cap. 27)
+en_wgthas_2015_28.pdf	Eating well for health — Workers Guide to Health and Safety (cap. 28)
+en_wgthas_2015_29.pdf	Access to safe water and toilets — Workers Guide to Health and Safety (cap. 29)
+en_wgthas_2015_30.pdf	HIV (Human Immunodeficiency Virus) — Workers Guide to Health and Safety (cap. 30)
+en_wgthas_2015_31.pdf	TB (tuberculosis) — Workers Guide to Health and Safety (cap. 31)
+en_wgthas_2015_32.pdf	A decent place to live — Workers Guide to Health and Safety (cap. 32)
+en_wgthas_2015_33.pdf	Pollution from factories — Workers Guide to Health and Safety (cap. 33)
+en_wgthas_2015_appa.pdf	APPENDIX A: Laws and the struggle for decent, healthy, and fair work — Workers Guide to Health and Safety
+en_wgthas_2015_appb.pdf	APPENDIX B: Common chemicals and materials — Workers Guide to Health and Safety
+en_wgthas_2015_fm.pdf	Front Matter: About This Book, How to Use This Book, Table of Contents — Workers Guide to Health and Safety
+en_wgthas_2015_indx.pdf	Index (yellow pages) — Workers Guide to Health and Safety
+en_wgthas_2015_ob.pdf	Other books from Hesperian — Workers Guide to Health and Safety
+en_wgthas_2015_resc.pdf	Where to get more information — Workers Guide to Health and Safety
+en_wgthas_2015_toc.pdf	Table of Contents — Workers Guide to Health and Safety

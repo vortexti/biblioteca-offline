@@ -1,0 +1,32 @@
+en_midw_2026_01.pdf	Words to midwives — A Book for Midwives (cap. 1)
+en_midw_2026_02.pdf	Treating health problems — A Book for Midwives (cap. 2)
+en_midw_2026_03.pdf	A woman's body in pregnancy — A Book for Midwives (cap. 3)
+en_midw_2026_04.pdf	Helping women stay healthy — A Book for Midwives (cap. 4)
+en_midw_2026_05.pdf	Preventing infection — A Book for Midwives (cap. 5)
+en_midw_2026_06.pdf	Common changes in pregnancy — A Book for Midwives (cap. 6)
+en_midw_2026_07.pdf	Learning a pregnant woman's health history — A Book for Midwives (cap. 7)
+en_midw_2026_08.pdf	Prenatal checkups — A Book for Midwives (cap. 8)
+en_midw_2026_09.pdf	Getting ready for labor and birth — A Book for Midwives (cap. 9)
+en_midw_2026_10.pdf	Giving good care during labor and birth — A Book for Midwives (cap. 10)
+en_midw_2026_11.pdf	Opening: stage 1 of labor — A Book for Midwives (cap. 11)
+en_midw_2026_12.pdf	Pushing: stage 2 of labor — A Book for Midwives (cap. 12)
+en_midw_2026_13.pdf	The birth of the placenta: stage 3 of labor — A Book for Midwives (cap. 13)
+en_midw_2026_14.pdf	The first few hours after the birth — A Book for Midwives (cap. 14)
+en_midw_2026_15.pdf	The first weeks after birth — A Book for Midwives (cap. 15)
+en_midw_2026_16.pdf	Breastfeeding — A Book for Midwives (cap. 16)
+en_midw_2026_17.pdf	Family planning — A Book for Midwives (cap. 17)
+en_midw_2026_18.pdf	Sexually transmitted infections (STIs) — A Book for Midwives (cap. 18)
+en_midw_2026_19.pdf	Advanced skills for pregnancy and birth — A Book for Midwives (cap. 19)
+en_midw_2026_20.pdf	The pelvic exam: how to examine a woman's vagina and womb — A Book for Midwives (cap. 20)
+en_midw_2026_21.pdf	How to insert an IUD — A Book for Midwives (cap. 21)
+en_midw_2026_22.pdf	Helping a woman after a pregnancy ends early — A Book for Midwives (cap. 22)
+en_midw_2026_23.pdf	Manual vacuum aspiration — A Book for Midwives (cap. 23)
+en_midw_2026_24.pdf	Getting medical help — A Book for Midwives (cap. 24)
+en_midw_2026_25.pdf	Homemade tools and teaching materials — A Book for Midwives (cap. 25)
+en_midw_2026_bm.pdf	Other resources from Hesperian — A Book for Midwives
+en_midw_2026_ddc.pdf	Due date calculator — A Book for Midwives
+en_midw_2026_fm.pdf	Front Matter: Credits and Thanks, Table of Contents — A Book for Midwives
+en_midw_2026_gloss.pdf	Technical and medical words (glossary) — A Book for Midwives
+en_midw_2026_gp.pdf	Medicines (green pages) — A Book for Midwives
+en_midw_2026_indx.pdf	Index (yellow pages) — A Book for Midwives
+en_midw_2026_resc.pdf	To learn more (resources) — A Book for Midwives
