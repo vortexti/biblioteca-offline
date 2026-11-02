@@ -1,0 +1,128 @@
+BIBLIOTECA OFFLINE - como usar
+==============================
+
+Criado por Breno Paiva - Instagram: @breno.paiva40 (instagram.com/breno.paiva40)
+Feito para ajudar as pessoas em tempos difíceis. Gratuito: só peço que me sigam no Instagram.
+
+ABRIR
+  1. Plugue o SSD no computador.
+  2. Abra o SSD e dê dois cliques em  ABRIR_BIBLIOTECA.bat
+  3. Uma janela preta abre e, logo depois, a biblioteca aparece no navegador.
+     (Se o navegador não abrir sozinho, digite no navegador o endereço que
+     aparece na janela preta, por exemplo  http://127.0.0.1:8800 )
+  Não precisa de internet nem de instalar nada.
+
+SAIR
+  Feche a janela preta. Tudo o que o app ligou é desligado junto.
+
+O QUE TEM
+  Início ...... uma caixa de busca para TUDO (manuais e enciclopédias) e
+                atalhos: Água, Fogo, Abrigo, Primeiros socorros, Plantio...
+  Pergunte .... a IA do computador responde usando só a biblioteca e mostra
+                a fonte de cada informação [1], [2]... Clique no número para
+                abrir o original na página certa.
+                Na primeira pergunta ela demora para ligar (até 2 minutos).
+                Depois de 15 minutos parada, desliga sozinha (economiza bateria).
+  Traduzir .... cole um texto em inglês e receba em português.
+  Estante ..... todos os documentos por tema e todas as enciclopédias.
+  Situação .... o que está funcionando, o que falta, espaço no SSD,
+                configurações e o botão "Atualizar biblioteca".
+
+O QUE TEM NA BIBLIOTECA (outubro/2026)
+  Enciclopedias (1_Enciclopedia): Wikipedia PT e EN completas, Wikilivros,
+    Wikiversidade, Wikisource, Wikcionario, livros-texto universitarios
+    LibreTexts (biologia, quimica, fisica, medicina, geociencias, engenharia,
+    matematica, oficios), MedlinePlus, MDWiki, WikEM, ~70 Stack Exchange
+    tecnicos (fisica, quimica, eletronica, mecanica, horta...), Projeto
+    Gutenberg (ciencias, tecnologia, agricultura, medicina...), Khan Academy,
+    Survivor Library, manuais do Exercito dos EUA, iFixit, mapas...
+  Manuais e livros (5_Acervo): acervo da Embrapa (dezenas de milhares de
+    cartilhas, folhetos e livros), publicacoes do Ministerio da Saude,
+    livros academicos do SciELO, Hesperian (Onde nao ha medico), cursos de
+    sobrevivencia, eletrica, solda...
+  Em numeros (25/10/2026): 177 enciclopedias .zim (Wikipedia PT e EN, Khan
+  Academy completa, Survivor Library, LibreTexts, ~70 Stack Exchange...),
+  ~8.300 publicacoes do Ministerio da Saude e livros do SciELO, ~40 mil
+  publicacoes da Embrapa, mais de 1 milhao de paginas pesquisaveis.
+  A IA so usa os manuais, livros-texto, wikis e enciclopedias praticas para
+  responder; literatura, videos, mapas e sites de programacao aparecem na
+  busca, mas nao alimentam a IA.
+
+DICA: a IA e a busca ficam MUITO mais rapidas se o SSD estiver numa porta
+  USB 3 (azul ou USB-C) e se nao houver downloads rodando ao mesmo tempo.
+
+ADICIONAR DOCUMENTOS
+  Copie PDFs, EPUBs, TXT ou MD para a pasta 5_Acervo, dentro de uma pasta
+  com o nome do tema (ex.: 5_Acervo\Saude\meu_manual.pdf).
+  Eles entram sozinhos da próxima vez que abrir o app, ou na hora pelo
+  botão "Atualizar biblioteca" (tela Situação).
+  PDFs escaneados (só imagem) aparecem pelo nome, mas o texto deles não é
+  pesquisável.
+
+CELULARES (modo rede da casa)
+  1. No Windows: Configurações > Rede e Internet > Hotspot móvel > Ligar.
+  2. No app: Situação > ligue "Modo rede da casa".
+  3. Conecte o celular no Wi-Fi do hotspot e digite no navegador do celular
+     o endereço mostrado (geralmente http://192.168.137.1:8810).
+  Se o Windows perguntar sobre o Firewall, permita o Python.
+
+AJUDA
+  Menu Ajuda: guia de uso (App\static\ajuda\guia.json, dá para editar o texto) e um assistente
+  que responde dúvidas sobre o app usando a IA local e o guia. Na primeira vez, o Início mostra
+  "Primeira vez aqui? Veja o guia rápido". Cada tela tem um link "? Como usar esta tela".
+
+LER TEXTO DE IMAGENS (OCR) - sem internet, com o leitor que já vem no Windows 10/11
+  - Foto ou imagem: Traduzir > "Ler texto de uma foto ou imagem" (no celular, pelo modo
+    rede da casa, abre a câmera). O texto vai para a caixa: copiar ou traduzir.
+  - PDF escaneado: na busca ou na Estante, "ler com OCR" mostra a página e o texto ao lado.
+  - Em segundo plano o app lê os ~6 mil PDFs escaneados (começa por Sobrevivência e Saúde),
+    ~1 página por segundo, e eles passam a aparecer na busca. Liga/desliga em Situação.
+    O que já foi lido fica guardado no índice; fechar o app não perde nada.
+  - O OCR do Windows deste computador lê pt-BR (também reconhece textos em inglês).
+  - Dois leitores: o do Windows (rápido, ~0,5 s/página, roda no PC do app) e o Tesseract
+    (tesseract.js em App\static\ocr, roda dentro do navegador: funciona em qualquer aparelho,
+    lê inglês melhor, ~15 s/página). O app usa o melhor disponível e oferece "ler de novo com o
+    outro leitor". Sem o leitor do Windows, a página do PDF é desenhada no navegador (pdf.js).
+
+MAPAS
+  No PC: menu "Mapa" do app. Mapa do Brasil inteiro, sem instalar nada, com
+  ruas até o nível de prédio, busca de cidades/bairros/serras/rios/hospitais,
+  coordenadas de qualquer ponto (para rádio ou papel), medir distância e rumo
+  e marcar pontos (nascente, abrigo...). Também abre no celular pelo modo
+  rede da casa. Arquivo: 2_Mapas\brasil.pmtiles (baixado por
+  _Baixador\BAIXAR_MAPA_PC.bat). O GPXSee + 2_Mapas\brasil.map é opcional.
+  No celular: Organic Maps (o .apk está em 6_Instaladores).
+
+SE ALGO FALHAR
+  - "Enciclopédias indisponíveis": confira se a pasta 1_Enciclopedia tem
+    arquivos .zim. Se o kiwix-serve travar, instale
+    Programas\Kiwix\vc_redist.x64.exe (runtime da Microsoft).
+  - "IA indisponível": falta o llamafile (Programas\IA) ou os modelos
+    (.gguf em 4_IA). A busca continua funcionando sem a IA.
+  - IA fechou ao carregar: pouca memória. Em Situação, escolha o modelo
+    menor (1.7B).
+  - IA lenta: o padrão (Automático) usa o modelo 4B com o motor llama.cpp
+    (Programas\LlamaCpp), 6 núcleos rápidos do processador e uma cópia da IA
+    guardada no computador (%LOCALAPPDATA%\BibliotecaOffline\ia, ~2,5 GB),
+    que carrega em segundos. A IA já liga ao abrir o app. Tudo isso pode ser
+    desligado em Situação > Configurações (desligar a cópia apaga a pasta).
+    Se o llama.cpp não abrir num computador, o app volta sozinho ao llamafile.
+  - Faltou algo: rode o _Baixador (com internet) para completar.
+  - Detalhes técnicos de erros: App\dados\log.txt
+
+DETALHES TÉCNICOS (para quem for mexer)
+  - Python embutido (Programas\Python), só biblioteca padrão. O texto dos
+    PDFs é extraído por um leitor próprio (App\biblioteca\pdftexto.py).
+    Se você colocar o pypdf (pure-Python) em App\vendor\, ele é usado.
+  - Índice: SQLite FTS5 com "remove_diacritics 2" (agua acha água),
+    em App\dados\indice.db. Incremental (caminho + tamanho + data).
+    Apagar o indice.db força reindexar tudo (~2 minutos).
+  - Portas: app 8800, kiwix-serve 8801, IA 8802 (ou a próxima livre).
+    Modo rede da casa: porta extra 8810 em todas as interfaces.
+  - O kiwix-serve 3.8 exige o runtime Visual C++ 2022 (msvcp140 >= 14.40).
+    As DLLs vão em App\runtime e o app as copia para a pasta do
+    kiwix-serve se faltarem.
+  - ZIMs incompletos (ainda baixando) são detectados pelo cabeçalho e
+    ignorados. Arquivos .ok do baixador são ignorados.
+  - Fora do escopo por enquanto: OCR de PDFs escaneados, versão Android,
+    Kolibri.

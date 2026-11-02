@@ -1,0 +1,59 @@
+/* Tela do mapa: ocupa a janela toda; os controles usam as cores do app. */
+html, body.tela-mapa { height: 100%; margin: 0; overflow: hidden; background: var(--papel); }
+.tela-mapa { display: flex; flex-direction: column; }
+#mapa { flex: 1; min-height: 0; }
+
+.mapa-barra {
+  display: flex; flex-wrap: wrap; align-items: center; gap: .5rem;
+  padding: .5rem .75rem; background: var(--papel-2); border-bottom: 2px solid var(--linha); z-index: 3;
+}
+.mapa-busca { position: relative; display: flex; gap: .4rem; flex: 1 1 320px; min-width: 0; }
+.mapa-busca input {
+  flex: 1; min-width: 0; font: inherit; font-size: 1rem; padding: .45rem .7rem;
+  border: 2px solid var(--linha); border-radius: var(--raio); background: var(--cartao); color: var(--tinta);
+}
+.mapa-busca input:focus { outline: 3px solid var(--foco); outline-offset: 1px; }
+.mapa-ferramentas { display: flex; gap: .4rem; }
+.mapa-ferramentas .ativo { background: var(--marca); color: var(--marca-tinta); border-color: var(--marca); }
+
+.mapa-resultados {
+  position: absolute; top: calc(100% + 4px); left: 0; right: 0; max-height: 60vh; overflow: auto; z-index: 10;
+  background: var(--cartao); border: 2px solid var(--linha); border-radius: var(--raio); box-shadow: 0 6px 18px rgba(0,0,0,.25);
+}
+.mapa-resultados button {
+  display: block; width: 100%; text-align: left; font: inherit; color: var(--tinta); background: none;
+  border: 0; border-bottom: 1px solid var(--linha); padding: .55rem .75rem; cursor: pointer;
+}
+.mapa-resultados button:hover, .mapa-resultados button:focus { background: var(--verde-claro); }
+.mapa-resultados small { color: var(--tinta-2); }
+.mapa-resultados p { margin: .6rem .75rem; color: var(--tinta-2); }
+
+.mapa-painel {
+  position: absolute; right: .75rem; bottom: 2.2rem; width: min(360px, calc(100% - 1.5rem)); max-height: 55vh; overflow: auto;
+  background: var(--cartao); color: var(--tinta); border: 2px solid var(--linha); border-radius: var(--raio);
+  padding: .75rem .9rem; z-index: 5; box-shadow: 0 6px 18px rgba(0,0,0,.25);
+}
+.mapa-painel h3 { margin: 0 0 .4rem; font-size: 1rem; }
+.mapa-painel .coord { font-family: var(--mono); font-size: .9rem; user-select: all; }
+.mapa-painel .linha-botoes { display: flex; flex-wrap: wrap; gap: .4rem; margin-top: .5rem; }
+.mapa-painel ul { list-style: none; padding: 0; margin: .3rem 0; }
+.mapa-painel li { display: flex; align-items: center; gap: .4rem; padding: .3rem 0; border-bottom: 1px solid var(--linha); }
+.mapa-painel li button.ir { flex: 1; text-align: left; background: none; border: 0; color: var(--tinta); font: inherit; cursor: pointer; padding: 0; }
+.mapa-painel .fechar { float: right; background: none; border: 0; font-size: 1.3rem; color: var(--tinta-2); cursor: pointer; line-height: 1; }
+.mapa-painel .meta { color: var(--tinta-2); font-size: .85rem; }
+
+.mapa-aviso {
+  position: absolute; top: 40%; left: 50%; transform: translate(-50%, -50%); width: min(520px, calc(100% - 2rem));
+  background: var(--cartao); color: var(--tinta); border: 2px solid var(--sinal); border-radius: var(--raio);
+  padding: 1rem 1.2rem; z-index: 6;
+}
+.marca-ponto {
+  width: 18px; height: 18px; border-radius: 50%; background: var(--sinal); border: 3px solid #fff;
+  box-shadow: 0 0 0 2px rgba(0,0,0,.45);
+}
+.marca-ponto.salva { background: #1f5fbf; }
+.maplibregl-ctrl-attrib { font-size: 11px; }
+@media (max-width: 640px) {
+  .mapa-barra { padding: .4rem; }
+  .mapa-ferramentas { width: 100%; justify-content: space-between; }
+}

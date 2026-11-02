@@ -1,0 +1,3 @@
+DLLs redistribuíveis do Microsoft Visual C++ 2022 (msvcp140, vcruntime140, vcruntime140_1).
+O kiwix-serve precisa delas (versão 14.40 ou mais nova). Muitos Windows têm uma versão
+antiga e aí ele trava ao abrir. O app copia estas DLLs para a pasta do kiwix-serve se faltarem.

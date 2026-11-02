@@ -1,0 +1,3 @@
+Bibliotecas Python pure-Python opcionais (sem compilar).
+Hoje o app usa só a biblioteca padrão. Se você copiar a pasta "pypdf"
+para cá, a extração de texto dos PDFs passa a usar o pypdf.

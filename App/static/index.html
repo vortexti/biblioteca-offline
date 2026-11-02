@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Biblioteca Offline</title>
+<link rel="icon" href="/static/icone.svg">
+<link rel="stylesheet" href="/static/estilo.css">
+<script src="/static/tema.js"></script>
+</head>
+<body>
+<header class="topo">
+  <div class="topo-dentro">
+    <a class="marca" href="#/">
+      <svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="10" fill="#3f5124"/><path d="M14 16h15c2 0 3 1 3 3v31c0-2-1-3-3-3H14z" fill="#f3efe4"/><path d="M50 16H35c-2 0-3 1-3 3v31c0-2 1-3 3-3h15z" fill="#e9e3d3"/><path d="M18 24h9M18 30h9M18 36h7M37 24h9M37 30h9M37 36h6" stroke="#3f5124" stroke-width="2"/><circle cx="47" cy="47" r="7" fill="#b5481a"/></svg>
+      <div><b>Biblioteca Offline</b><span>manual de campo · sem internet</span></div>
+    </a>
+    <nav class="menu" aria-label="Seções">
+      <a href="#/" data-rota="inicio">Início</a>
+      <a href="#/pergunte" data-rota="pergunte">Pergunte</a>
+      <a href="#/traduzir" data-rota="traduzir">Traduzir</a>
+      <a href="#/estante" data-rota="estante">Estante</a>
+      <a href="/mapa">Mapa</a>
+      <a href="#/situacao" data-rota="situacao">Situação</a>
+      <a href="#/ajuda" data-rota="ajuda">Ajuda</a>
+      <button class="botao-tema" id="botao-tema" type="button" title="Alternar claro/escuro">◐ Tema</button>
+    </nav>
+  </div>
+</header>
+
+<main id="conteudo" tabindex="-1">
+  <p class="status-linha">Carregando…</p>
+</main>
+
+<footer class="rodape">
+  Criado por <b>Breno Paiva</b> · Instagram <a href="https://instagram.com/breno.paiva40" target="_blank" rel="noopener">@breno.paiva40</a><br>
+  Feito para ajudar as pessoas em tempos difíceis. Gratuito: não é cobrado nada, só peço que me sigam no Instagram.
+</footer>
+
+<noscript><p style="padding:16px">Este app precisa de JavaScript ligado no navegador.</p></noscript>
+<script src="/static/ocr/leitor.js"></script>
+<script src="/static/app.js"></script>
+</body>
+</html>

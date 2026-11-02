@@ -1,0 +1,7 @@
+Mapa dentro do app (tela "Mapa"):
+- maplibre-gl.js / .css: MapLibre GL JS 5.24.0 (licenca BSD-3, LICENSE_maplibre.txt)
+- basemaps.js: @protomaps/basemaps 5.7.2 (licenca BSD-3) - gera o estilo do mapa
+- sprites/ e fonts/: protomaps/basemaps-assets (icones; fontes Noto Sans, licenca OFL em fonts/OFL.txt)
+- Dados do mapa: 2_Mapasrasil.pmtiles = recorte do Protomaps, dados (c) colaboradores do OpenStreetMap (ODbL)
+- Lugares para a busca: 2_Mapas\lugares_br.tsv = GeoNames (CC BY 4.0)
+Nada aqui acessa a internet.

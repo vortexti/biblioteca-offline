@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mapa do Brasil · Biblioteca Offline</title>
+<link rel="icon" href="/static/icone.svg">
+<link rel="stylesheet" href="/static/estilo.css">
+<link rel="stylesheet" href="/static/mapa/maplibre-gl.css">
+<link rel="stylesheet" href="/static/mapa/mapa.css">
+<script src="/static/tema.js"></script>
+</head>
+<body class="tela-mapa">
+<div class="mapa-barra">
+  <a class="botao secundario pequeno" href="/" title="Voltar para a biblioteca">← Biblioteca</a>
+  <form id="f-busca" class="mapa-busca" role="search" autocomplete="off">
+    <input id="q" type="search" placeholder="Cidade, bairro, serra, rio, hospital…  (ex.: Campinas, SP)" aria-label="Buscar lugar no mapa">
+    <button class="botao pequeno" type="submit">Buscar</button>
+    <div id="resultados" class="mapa-resultados" hidden></div>
+  </form>
+  <div class="mapa-ferramentas">
+    <button class="botao secundario pequeno" id="b-medir" type="button" title="Clique pontos no mapa para medir a distância">📏 Medir</button>
+    <button class="botao secundario pequeno" id="b-marcas" type="button" title="Seus pontos marcados">📍 Marcas</button>
+    <button class="botao secundario pequeno" id="b-tema" type="button" title="Mapa claro ou escuro">◐</button>
+    <a class="botao secundario pequeno" href="/#/ajuda?s=mapa" title="Como usar o mapa">?</a>
+  </div>
+</div>
+<div id="mapa"></div>
+<div id="painel" class="mapa-painel" hidden></div>
+<div id="aviso" class="mapa-aviso" hidden></div>
+<script src="/static/mapa/maplibre-gl.js"></script>
+<script src="/static/mapa/basemaps.js"></script>
+<script src="/static/mapa/mapa.js"></script>
+</body>
+</html>
