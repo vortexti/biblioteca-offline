@@ -1,0 +1,70 @@
+﻿BIBLIOTECA OFFLINE - COMO USAR O BAIXADOR
+
+1. Copie esta pasta (_Baixador) para a RAIZ do SSD (ex.: E:\_Baixador).
+2. De dois cliques em BAIXAR_BIBLIOTECA.bat.
+   Se o Windows mostrar "O Windows protegeu o computador", clique em
+   "Mais informacoes" e depois "Executar assim mesmo".
+3. Responda as duas perguntas (s/n) e deixe rodando. Pode levar uma noite.
+4. Se a internet cair ou voce fechar a janela, rode de novo:
+   ele pula o que ja baixou e continua os arquivos pela metade.
+5. No fim, ele lista o que nao conseguiu baixar. Esses itens ficam
+   tambem no arquivo registro.txt, com o link para baixar a mao.
+
+O que ele cria no SSD:
+  1_Enciclopedia   Wikipedia, Wikilivros, Wikcionario, iFixit etc. (.zim)
+  2_Mapas          mapas do Brasil: brasil.pmtiles (tela "Mapa" do app), brasil.map (GPXSee)
+                   e OrganicMaps_<versao> (celular)
+  4_IA             modelos de IA (.gguf)
+  5_Acervo         PDFs por tema (Saude, Agua, Agricultura, Eletrica...)
+  6_Instaladores   Kiwix, Firefox, Ollama, GPXSee, APKs de Android
+  Programas        Kiwix portatil, servidor do Kiwix, Python e IA (usados pelo app)
+
+Qualquer PDF que voce jogar dentro de 5_Acervo entra na busca do app.
+
+BAIXAR_EXTRAS.bat (outubro/2026)
+  Baixa so os itens que falharam na primeira rodada (cursos de
+  sobrevivencia, SODIS, ESAB, GPXSee, Wikcionario) e as bibliotecas
+  praticas que substituem o WikiHow (que saiu do catalogo do Kiwix).
+  Pergunta tambem pela Survivor Library (~205 GB, opcional).
+  Usa os mesmos nomes e marcas .ok: nada e baixado duas vezes.
+  Para so testar os links:  powershell -File baixar_extras.ps1 -Verificar
+
+Depois de baixar, abra o app (ABRIR_BIBLIOTECA.bat na raiz do SSD) e
+clique em Situacao > "Atualizar biblioteca": PDFs e enciclopedias novas
+entram na busca e na IA sozinhos.
+
+Correcoes no baixar.ps1 (25/10/2026; a versao antiga esta em baixar.ps1.original):
+  - 19 cursos falhavam por um erro de sintaxe ($tp + '...' sem parenteses).
+  - Links novos/arquivados: SODIS, ESAB, AFH 10-644, ATP 3-50.21, GPXSee.
+  - Wikcionario PT so existe sem imagens (nopic).
+  - WikiHow trocado por bibliotecas praticas; Survivor Library opcional.
+
+BIBLIOTECA DO CONHECIMENTO (25/10/2026) - tres baixadores grandes, cada um
+na sua janela, todos retomaveis (pode fechar e rodar de novo):
+
+  BAIXAR_CONHECIMENTO.bat  ~170 enciclopedias do catalogo oficial do Kiwix:
+                           livros-texto LibreTexts, medicina, Wikibooks/Wikisource/
+                           Wikiversity EN, ~70 Stack Exchange tecnicos, Gutenberg
+                           (ciencias, tecnologia, agricultura, medicina...), Khan
+                           Academy completa, Survivor Library, mapas... Prioridades:
+                           P1 essenciais, P2 grandes, P3 so se sobrarem 140 GB.
+                           Nunca deixa o SSD com menos de 40 GB livres.
+  BAIXAR_PT.bat            livros academicos do SciELO Livros e publicacoes do
+                           Ministerio da Saude (copias do Internet Archive).
+  BAIXAR_EMBRAPA.bat       acervo completo da Embrapa (Infoteca-e, ~59 mil
+                           publicacoes) com o mesmo padrao do baixador original.
+
+O app usa tudo sozinho ao abrir (ou Situacao > "Atualizar biblioteca").
+
+Ainda fica de fora: cursos do Kolibri.
+
+MAPAS (26/10/2026)
+  BAIXAR_MAPA_PC.bat  mapa do Brasil para a tela "Mapa" do app (~5,7 GB, recorte do
+                      Protomaps/OpenStreetMap) + lista de lugares (GeoNames). Retomavel.
+  baixar_refino.py    mapas do celular (Organic Maps) e livros da Hesperian em ingles.
+
+ATUALIZACAO (26/10/2026)
+  atualizar.py        chamado pelo botao Situacao > Atualizar pela internet do app.
+                      --verificar so lista; --partes zims,acervo atualiza. Estado em
+                      atualizacao_estado.json. Embrapa/Exercito pedem so o que entrou desde a
+                      ultima coleta (OAI from=).

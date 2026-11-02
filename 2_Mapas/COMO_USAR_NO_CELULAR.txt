@@ -1,0 +1,29 @@
+MAPAS OFFLINE DO BRASIL NO CELULAR (Organic Maps, Android)
+==========================================================
+
+Com estes arquivos o celular mostra mapa, ruas, trilhas, rios e faz rotas a pe,
+de bicicleta e de carro SEM INTERNET, com o GPS do proprio celular.
+
+1. Instale o app: copie para o celular o arquivo
+      6_Instaladores\OrganicMaps-....apk
+   (ou, no modo rede da casa, abra a biblioteca no celular > Situacao >
+   Instaladores e toque nele) e instale. Se o Android pedir, permita
+   "instalar apps desta fonte".
+2. Abra o Organic Maps UMA vez e feche (ele cria a pasta de mapas).
+   Se ele oferecer baixar o mapa do mundo, pode recusar.
+3. Ligue o celular no computador pelo cabo USB e escolha
+   "Transferencia de arquivos".
+4. No computador, abra:
+      Celular > Armazenamento interno > Android > data > app.organicmaps > files
+   Dentro de "files" deve haver uma pasta com numero (ex.: 260928).
+   Copie TODOS os arquivos .mwm da pasta
+      2_Mapas\OrganicMaps_260928
+   para dentro dessa pasta numerada (se o numero for outro, use o que estiver
+   la; se nao houver pasta numerada, crie uma chamada 260928).
+5. Abra o Organic Maps: o Brasil inteiro aparece offline.
+
+Se o celular nao mostrar a pasta "Android\data" pelo cabo (alguns Android
+novos escondem), use um gerenciador de arquivos no proprio celular que acesse
+essa pasta, ou instale o mapa por regiao direto no app quando houver internet.
+
+No computador: instale o GPXSee (6_Instaladores) e abra 2_Mapas\brasil.map.
